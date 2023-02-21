@@ -1,0 +1,67 @@
+body{
+    color: #ffff;
+}
+
+.header-image{
+    background: url(images/Freightliner.jpg) no-repeat center 40% / cover;
+    height: 800px;
+    position: relative;
+
+}
+.header-txt{
+    text-align: center;
+    position: relative;
+}
+.header-button{
+    background-color: white;
+}
+
+.logo{
+    /* background: url(images/mt.png); */
+    display: inline-block;
+    line-height: 1;
+}
+
+.logo img{
+    display: inline-block;
+}
+.logo span {
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color: #ffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 960px){
+    .logo {
+		margin: 20px auto;
+		display: block;
+		width: 100px;
+	}
+	
+	.logo img {
+		display: block;
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 600px){
+    /* footer settings */
+}
