@@ -29,8 +29,9 @@ a {
 }
 
 .header-image{
-    background: url(images/Freightliner.jpg) no-repeat center 40% / cover;
-    height: 800px;
+    background: url(images/engine.jpg) no-repeat center 40% / cover;
+    
+    height: 600px;
     position: relative;
 
 }
