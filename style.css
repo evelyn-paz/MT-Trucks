@@ -63,7 +63,6 @@ a {
     padding: 100px;
     width: 70%;
     margin: auto;
-
 }
 
 /* div header-txt h1 text style */
@@ -91,11 +90,11 @@ a {
     text-transform: uppercase;
 }
 
-/* hover underline link */
+/* hover underline link 
 .home-links:hover {
     transition: all 0.5s;
     color: #ffffff;
-}
+}*/
 
 .header a {
     float: left;
@@ -135,12 +134,14 @@ img {
 }
 
 .home-parts img {
-    
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .container .text{
     font-size: 20px;
     padding-left: 80px;
+    text-align: center;
 }
 
 
