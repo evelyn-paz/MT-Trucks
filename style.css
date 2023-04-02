@@ -122,32 +122,28 @@ a {
 
 /*-------------Body---------------- */
 .container {
-    display: flex;
+    position: relative;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
-    padding-inline: 20px;
+    
 }
 
-img {
-    max-width: 50%;
+.parallax {
+    background: url(images/city.jpg) repeat fixed 40% / cover;
+}
+.inner {
+    padding-top: 30%;
+    padding-bottom: 30%;
 }
 
-.home-parts img {
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-.container .text{
-    font-size: 20px;
-    padding-left: 80px;
+.inner h1 {
     text-align: center;
 }
 
-
-
-
-
+.test1 {
+    background: url(images/tekton-e6Wr8LaH-Q8-unsplash.jpg) repeat fixed 40% / cover;
+}
 
 
 
