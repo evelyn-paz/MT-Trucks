@@ -9,19 +9,12 @@ body{
     line-height: 1.4;
 }
 
-/*h1 {
-	text-transform: uppercase;
-    position: relative;
-    font-size: 30px;
-	font-weight: normal;
-}*/
 
 h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 15px;
-	font-family: 'Merriweather', serif;
-    font-family: 'Noticia Text', serif;
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -50,6 +43,15 @@ a {
 	padding: 0 12px;
 }
 
+/* Home page links */
+.home-links{
+    text-indent: 70px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: large;
+    text-transform: uppercase;
+}
+
 /* div header-txt position */
 .header-txt {
     position: relative;
@@ -61,33 +63,21 @@ a {
     color: #fff;
     text-align: center;
     padding: 100px;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
 /* div header-txt h1 text style */
 .header-txt h1{
-    font-size: 45px;
+    font-size: 40px;
     line-height: 1.2;
     text-align: center;
-    font-family: 'Merriweather', serif;
-    font-family: 'Noticia Text', serif;
-    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
 
 .header-txt h2{
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.2;
-    text-align: left;
-}
-
-/* Home page links */
-.home-links{
-    text-indent: 70px;
-    text-align: center;
-    border-radius: 40px;
-    font-size: large;
-    text-transform: uppercase;
 }
 
 /* hover underline link 
@@ -126,23 +116,62 @@ a {
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+/* controls the 2nd img */
+.parallax {
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+                url(images/pexels-craig-adderley-1563356.jpg) repeat fixed 40% / cover;
+}
+
+/* inside parallax, controls how tall to make the img*/
+.inner {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.inner h1{
+    position: absolute;
+    left: 40%;
+    top: 80px;
+    font-size: 40px;
+}
+
+.inner h2{
+    position: absolute;
+    left: 37%;
+    top: 120px;
     
 }
 
-.parallax {
-    background: url(images/city.jpg) repeat fixed 40% / cover;
-}
-.inner {
-    padding-top: 30%;
-    padding-bottom: 30%;
+
+/*.truck-vector{
+    background-image: url(images/peterbuilt\ vector.png);
+    object-fit: cover;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    
+}*/
+
+/* truck vector ontop of inner img */
+.over-img {
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    left: 25%;
 }
 
-.inner h1 {
-    text-align: center;
-}
-
-.test1 {
+/* 3rd section on home pg */
+.tools {
     background: url(images/tekton-e6Wr8LaH-Q8-unsplash.jpg) repeat fixed 40% / cover;
+}
+
+/*  */
+.inside {
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 
